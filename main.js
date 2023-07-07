@@ -25,3 +25,13 @@ function grettings(){
 grettings();
 
 console.log("Ahora solo queda ver como hago mis commits en git hub");
+
+function area(base,high){
+    a = base*high
+    return "El area del rectangulo es de " + a;
+}
+
+console.log(area(13,7));
+
+console.log(area(8,12));
+
