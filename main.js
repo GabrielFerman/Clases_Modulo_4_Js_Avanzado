@@ -32,6 +32,19 @@ function area(base,high){
 }
 
 console.log(area(13,7));
-
 console.log(area(8,12));
+console.log("Generaremos mas codigo para seguir usando node.js");
 
+function reference(a){
+    if(a == true){
+        console.log("Esta referencia es correcta")
+        return a;
+    } else {
+        console.log("La referencia es incorrecta");
+        return a;
+    }
+}
+
+console.log(reference(true));
+console.log(reference(false));
+console.log(reference("hola"));
