@@ -10,6 +10,11 @@ const adios = () => {
     }, 1000);
 }
 
-hola();
-adios();
+//Resolver saludar primero con setTimeout
+function saludarPrimero(){
+    return hola(), setTimeout(() => {
+        adios()
+    }, 1000);
+}
 
+console.log(saludarPrimero());
