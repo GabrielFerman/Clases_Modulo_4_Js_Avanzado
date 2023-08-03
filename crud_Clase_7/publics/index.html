@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To do list app</title>
+    <!--Google Fonts, Roboto-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link 
+        href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Syne+Tactile&display=swap" 
+        rel="stylesheet"
+    >
+
+    <link rel="stylesheet" href="./../css/style.css">
+</head>
+<body>
+    <main class="app">
+        <section class="to-do-container">
+            <h1>Lista de tareas</h1>
+
+            <section class="add-task">
+                <input 
+                    type="text" 
+                    placeholder="Escribe una tarea" 
+                    id="input-todo" 
+                    class="input-todo"
+                />
+                <button id="btn-add" class="btn-add">Añadir</button>
+            </section>
+            <div class="btn-bg-container">
+                <button class="btn-background">Cambiar Fondo</button>
+            </div>
+            <ul id="content-wrapper" class="content-wrapper">
+                <li>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                    <div>
+                        <button class="btn-edit">Editar</button>
+                        <button class="btn-delete">Eliminar</button>
+                    </div>
+                </li>
+            </ul>
+        </section>
+    </main>
+    <script src="./../src/index.js"></script>    
+</body>
+</html>
